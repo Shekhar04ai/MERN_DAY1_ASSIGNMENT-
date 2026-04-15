@@ -1,9 +1,10 @@
+import React from "react";
 import ProfileCard from "./ProfileCard";
 
 function App() {
   return (
-    <div>
-      <ProfileCard name="Shekhar developer" />
+    <div style={{ background: "#f0f4f8", minHeight: "100vh", padding: "40px" }}>
+      <ProfileCard developerName="Shekhar" />
     </div>
   );
 }
